@@ -24,5 +24,6 @@
         <Grid Grid.Column="1" Name="controlContent" Background="AliceBlue">
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30">这里是空的</TextBlock>
         </Grid>
+        
     </Grid>
 </Window>

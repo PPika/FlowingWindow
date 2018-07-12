@@ -10,4 +10,30 @@
 	笔记：
 		使用for来操作能避免这种枚举错误，使用isualTreeHelper.GetChildrenCount和isualTreeHelper.GetChild
 
-版本2的要求（version1.2）
+版本2的要求（version1.2）:
+	能够使用tabcoutrol来做到界面的分离
+
+	步骤：
+		熟悉tabcontrol的使用
+		完成点击itemcontrol来做到界面分离和item的移除
+
+	注意：
+		首先是控件必须先移除才能解除逻辑树的问题
+		其次是需要使用特定的方法让我们要用的东西的逻辑树出来，然后再添加
+		uC.Parent.SetValue(ContentPresenter.ContentProperty, null)
+
+	笔记：
+		这是一段用来移除item的方法
+			TabItem s = (TabItem)sender;
+			tab.Items.Remove(s);
+
+版本3的要求（version1.3）：
+	通过拖拽这个动作来实现界面的出来，并且要保证整个过程都是我再拖动着窗体
+
+	步骤：
+
+
+	注意：
+
+
+	笔记：

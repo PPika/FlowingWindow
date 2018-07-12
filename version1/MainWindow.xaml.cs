@@ -45,7 +45,7 @@ namespace version1
             //    }
             //}
             #endregion
-            
+             
             #region 完成了最简单的界面卸载功能
             for (int i = 0; i < VisualTreeHelper.GetChildrenCount(controlContent); i++)
             {
