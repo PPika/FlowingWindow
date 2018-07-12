@@ -7,6 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Click="addUserControl" Grid.Row="0">在右边添加一个usercontrol</Button>
+            <Button Click="removeUserControl" Grid.Row="1">将我们添加的东西移动出去</Button>
+            <Button Click="floatUserControl" Grid.Row="2">这里做到把界面给托管出来</Button>
+        </Grid>
+        <Grid Grid.Column="1" Name="controlContent" Background="AliceBlue">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30">这里是空的</TextBlock>
+        </Grid>
     </Grid>
 </Window>

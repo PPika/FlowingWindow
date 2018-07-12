@@ -1,0 +1,13 @@
+版本1的要求：完成最基本的界面分离功能
+	
+	步骤：
+		熟悉UserControl使用
+		完成最简单的界面分离，并且做到分离的界面可以在里面嵌套各种控件
+
+	注意：
+		foreach用来查找布局内控件后删除会出现枚举类错误
+		
+	笔记：
+		使用for来操作能避免这种枚举错误，使用isualTreeHelper.GetChildrenCount和isualTreeHelper.GetChild
+
+版本2的要求（version1.2）
